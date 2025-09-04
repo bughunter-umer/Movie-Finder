@@ -1,12 +1,68 @@
-# React + Vite
+# 🎬 Movie Finder App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive **Movie Finder Web App** built with **React + Vite + Tailwind CSS**.  
+This app uses the **IMDb API** to fetch movie details and provides direct links for all searched movies.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- 🔍 Search any movie by name  
+- 🎥 Fetches real-time data from IMDb API  
+- 🌐 Provides direct clickable links to movie pages  
+- 📱 Fully responsive design (mobile, tablet, desktop)  
+- 🎨 Styled with **Tailwind CSS**  
+- ⚡ Built with **React + Vite** for fast performance  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🖼️ Preview
+Here’s a screenshot of the app:
+
+![Movie Finder Screenshot](./images/image.jpg)
+
+---
+
+## 🛠️ Tech Stack
+- **React** (Frontend library)  
+- **Vite** (Development & build tool)  
+- **Tailwind CSS** (Styling)  
+- **IMDb API** (Movie data)  
+
+---
+
+## 📂 Project Setup
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/your-username/movie-finder.git
+cd movie-finder
+2️⃣ Install dependencies
+bash
+Copy code
+npm install
+3️⃣ Start the development server
+bash
+Copy code
+npm run dev
+4️⃣ Build for production
+bash
+Copy code
+npm run build
+🔑 API Setup
+Get your IMDb API key from IMDb API
+
+Create a .env file in the project root and add:
+
+env
+Copy code
+VITE_IMDB_API_KEY=your_api_key_here
+📌 Usage
+Enter any movie name in the search bar
+
+Browse through search results
+
+Click on a movie title to open its IMDb link
+
+🤝 Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you’d like to change.
+
